@@ -1,0 +1,50 @@
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Infra.Data.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceServices.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Infra.Data.dll.config
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceServices.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Infra.Data.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceServices.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceServices.Infra.Data.pdb

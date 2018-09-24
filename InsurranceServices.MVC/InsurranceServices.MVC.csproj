@@ -1,0 +1,1482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C0E9A56-9D7E-4490-8572-80439B0B4BC6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InsurranceServices.MVC</RootNamespace>
+    <AssemblyName>InsurranceServices.MVC</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SimpleInjector, Version=4.0.3.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.4.0.3\lib\net45\SimpleInjector.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector.Integration.WebApi, Version=4.0.3.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.Integration.WebApi.4.0.3\lib\net45\SimpleInjector.Integration.WebApi.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.Cors, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.4\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.4\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.0.6\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.2.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.2.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.2.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.2.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.2.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\ServiceStartUp.cs" />
+    <Compile Include="App_Start\SimpleInjectorWebApiInitializer.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
+    <Compile Include="Controllers\DashBoardController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PartnerController.cs" />
+    <Compile Include="Controllers\SimulationController.cs" />
+    <Compile Include="Controllers\WebApi\CustomerServiceController.cs" />
+    <Compile Include="Controllers\WebApi\InsuranceTypeServiceController.cs" />
+    <Compile Include="Controllers\WebApi\PartnerServiceController.cs" />
+    <Compile Include="Controllers\WebApi\SimulationServiceController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app-assets\css\app.css" />
+    <Content Include="app-assets\css\app.min.css" />
+    <Content Include="app-assets\css\bootstrap-extended.css" />
+    <Content Include="app-assets\css\bootstrap-extended.min.css" />
+    <Content Include="app-assets\css\bootstrap.css" />
+    <Content Include="app-assets\css\bootstrap.min.css" />
+    <Content Include="app-assets\css\colors.css" />
+    <Content Include="app-assets\css\colors.min.css" />
+    <Content Include="app-assets\css\core\colors\palette-callout.css" />
+    <Content Include="app-assets\css\core\colors\palette-callout.min.css" />
+    <Content Include="app-assets\css\core\colors\palette-climacon.css" />
+    <Content Include="app-assets\css\core\colors\palette-climacon.min.css" />
+    <Content Include="app-assets\css\core\colors\palette-gradient.css" />
+    <Content Include="app-assets\css\core\colors\palette-gradient.min.css" />
+    <Content Include="app-assets\css\core\colors\palette-loader.css" />
+    <Content Include="app-assets\css\core\colors\palette-loader.min.css" />
+    <Content Include="app-assets\css\core\colors\palette-noui.css" />
+    <Content Include="app-assets\css\core\colors\palette-noui.min.css" />
+    <Content Include="app-assets\css\core\colors\palette-switch.css" />
+    <Content Include="app-assets\css\core\colors\palette-switch.min.css" />
+    <Content Include="app-assets\css\core\colors\palette-tooltip.css" />
+    <Content Include="app-assets\css\core\colors\palette-tooltip.min.css" />
+    <Content Include="app-assets\css\core\colors\palette-variables.css" />
+    <Content Include="app-assets\css\core\colors\palette-variables.min.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\horizontal-menu.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\horizontal-menu.min.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\horizontal-top-icon-menu.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\horizontal-top-icon-menu.min.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-compact-menu.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-compact-menu.min.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-content-menu.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-content-menu.min.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-menu.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-menu.min.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-multi-level-menu.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-multi-level-menu.min.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-overlay-menu.css" />
+    <Content Include="app-assets\css\core\menu\menu-types\vertical-overlay-menu.min.css" />
+    <Content Include="app-assets\css\core\mixins\callout.css" />
+    <Content Include="app-assets\css\core\mixins\callout.min.css" />
+    <Content Include="app-assets\css\core\mixins\hex2rgb.css" />
+    <Content Include="app-assets\css\core\mixins\hex2rgb.min.css" />
+    <Content Include="app-assets\css\core\mixins\main-menu-mixin.css" />
+    <Content Include="app-assets\css\core\mixins\main-menu-mixin.min.css" />
+    <Content Include="app-assets\css\core\mixins\transitions.css" />
+    <Content Include="app-assets\css\core\mixins\transitions.min.css" />
+    <Content Include="app-assets\css\font-awesome.css" />
+    <Content Include="app-assets\css\pages\coming-soon.css" />
+    <Content Include="app-assets\css\pages\coming-soon.min.css" />
+    <Content Include="app-assets\css\pages\error.css" />
+    <Content Include="app-assets\css\pages\error.min.css" />
+    <Content Include="app-assets\css\pages\gallery.css" />
+    <Content Include="app-assets\css\pages\gallery.min.css" />
+    <Content Include="app-assets\css\pages\invoice.css" />
+    <Content Include="app-assets\css\pages\invoice.min.css" />
+    <Content Include="app-assets\css\pages\login-register.css" />
+    <Content Include="app-assets\css\pages\login-register.min.css" />
+    <Content Include="app-assets\css\pages\project.css" />
+    <Content Include="app-assets\css\pages\project.min.css" />
+    <Content Include="app-assets\css\pages\register.css" />
+    <Content Include="app-assets\css\pages\register.min.css" />
+    <Content Include="app-assets\css\pages\search.css" />
+    <Content Include="app-assets\css\pages\search.min.css" />
+    <Content Include="app-assets\css\pages\timeline.css" />
+    <Content Include="app-assets\css\pages\timeline.min.css" />
+    <Content Include="app-assets\css\pages\under-maintenance.css" />
+    <Content Include="app-assets\css\pages\under-maintenance.min.css" />
+    <Content Include="app-assets\css\pages\users.css" />
+    <Content Include="app-assets\css\pages\users.min.css" />
+    <Content Include="app-assets\css\plugins\animate\animate.css" />
+    <Content Include="app-assets\css\plugins\animate\animate.min.css" />
+    <Content Include="app-assets\css\plugins\calendars\clndr.css" />
+    <Content Include="app-assets\css\plugins\calendars\clndr.min.css" />
+    <Content Include="app-assets\css\plugins\calendars\fullcalendar.css" />
+    <Content Include="app-assets\css\plugins\calendars\fullcalendar.min.css" />
+    <Content Include="app-assets\css\plugins\charts\c3-chart.css" />
+    <Content Include="app-assets\css\plugins\charts\c3-chart.min.css" />
+    <Content Include="app-assets\css\plugins\extensions\noui-slider.css" />
+    <Content Include="app-assets\css\plugins\extensions\noui-slider.min.css" />
+    <Content Include="app-assets\css\plugins\extensions\toastr.css" />
+    <Content Include="app-assets\css\plugins\extensions\toastr.min.css" />
+    <Content Include="app-assets\css\plugins\file-uploaders\dropzone.css" />
+    <Content Include="app-assets\css\plugins\file-uploaders\dropzone.min.css" />
+    <Content Include="app-assets\css\plugins\forms\checkboxes-radios.css" />
+    <Content Include="app-assets\css\plugins\forms\checkboxes-radios.min.css" />
+    <Content Include="app-assets\css\plugins\forms\dual-listbox.css" />
+    <Content Include="app-assets\css\plugins\forms\dual-listbox.min.css" />
+    <Content Include="app-assets\css\plugins\forms\extended\form-extended.css" />
+    <Content Include="app-assets\css\plugins\forms\extended\form-extended.min.css" />
+    <Content Include="app-assets\css\plugins\forms\extended\typeahed.css" />
+    <Content Include="app-assets\css\plugins\forms\extended\typeahed.min.css" />
+    <Content Include="app-assets\css\plugins\forms\selectBoxIt\selectBoxIt.css" />
+    <Content Include="app-assets\css\plugins\forms\selectBoxIt\selectBoxIt.min.css" />
+    <Content Include="app-assets\css\plugins\forms\selectivity\selectivity.css" />
+    <Content Include="app-assets\css\plugins\forms\selectivity\selectivity.min.css" />
+    <Content Include="app-assets\css\plugins\forms\selectize\selectize.css" />
+    <Content Include="app-assets\css\plugins\forms\selectize\selectize.min.css" />
+    <Content Include="app-assets\css\plugins\forms\switch.css" />
+    <Content Include="app-assets\css\plugins\forms\switch.min.css" />
+    <Content Include="app-assets\css\plugins\forms\validation\form-validation.css" />
+    <Content Include="app-assets\css\plugins\forms\validation\form-validation.min.css" />
+    <Content Include="app-assets\css\plugins\forms\wizard.css" />
+    <Content Include="app-assets\css\plugins\forms\wizard.min.css" />
+    <Content Include="app-assets\css\plugins\images\cropper\cropper.css" />
+    <Content Include="app-assets\css\plugins\images\cropper\cropper.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-beat.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-beat.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-clip-rotate-multiple.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-clip-rotate-multiple.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-clip-rotate-pulse.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-clip-rotate-pulse.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-clip-rotate.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-clip-rotate.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-grid-beat.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-grid-beat.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-grid-pulse.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-grid-pulse.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-pulse-rise.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-pulse-rise.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-pulse-round.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-pulse-round.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-pulse-sync.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-pulse-sync.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-pulse.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-pulse.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-rotate.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-rotate.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale-multiple.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale-multiple.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale-random.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale-random.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale-ripple-multiple.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale-ripple-multiple.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale-ripple.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale-ripple.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-scale.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-spin-fade-loader.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-spin-fade-loader.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-spin-loader.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-spin-loader.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-triangle-trace.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-triangle-trace.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-zig-zag-deflect.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-zig-zag-deflect.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-zig-zag.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\ball-zig-zag.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\cube-transition.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\cube-transition.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-scale-pulse-out-rapid.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-scale-pulse-out-rapid.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-scale-pulse-out.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-scale-pulse-out.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-scale-random.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-scale-random.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-scale.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-scale.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-spin-fade-loader.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\line-spin-fade-loader.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\pacman.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\pacman.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\semi-circle-spin.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\semi-circle-spin.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\square-spin.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\square-spin.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\triangle-skew-spin.css" />
+    <Content Include="app-assets\css\plugins\loaders\animations\triangle-skew-spin.min.css" />
+    <Content Include="app-assets\css\plugins\loaders\loaders.css" />
+    <Content Include="app-assets\css\plugins\loaders\loaders.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.autoheight.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.autoheight.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.columns.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.columns.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.counters.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.counters.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.dividers.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.dividers.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.dragopen.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.dragopen.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.dropdown.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.dropdown.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.iconpanels.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.iconpanels.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.navbars.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.navbars.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.offcanvas.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.offcanvas.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.screenreader.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.screenreader.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.searchfield.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.searchfield.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.sectionindexer.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.sectionindexer.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.setselected.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.setselected.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.toggles.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\addons\jquery.mmenu.toggles.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\borderstyle\jquery.mmenu.borderstyle.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\borderstyle\jquery.mmenu.borderstyle.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\effects\jquery.mmenu.effects.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\effects\jquery.mmenu.effects.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\fullscreen\jquery.mmenu.fullscreen.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\fullscreen\jquery.mmenu.fullscreen.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\iconbar\jquery.mmenu.iconbar.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\iconbar\jquery.mmenu.iconbar.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\justifiedlistview\jquery.mmenu.justifiedlistview.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\justifiedlistview\jquery.mmenu.justifiedlistview.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\multiline\jquery.mmenu.multiline.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\multiline\jquery.mmenu.multiline.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\pagedim\jquery.mmenu.pagedim.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\pagedim\jquery.mmenu.pagedim.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\pageshadow\jquery.mmenu.pageshadow.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\pageshadow\jquery.mmenu.pageshadow.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\popup\jquery.mmenu.popup.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\popup\jquery.mmenu.popup.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\positioning\jquery.mmenu.positioning.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\positioning\jquery.mmenu.positioning.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\themes\jquery.mmenu.themes.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\themes\jquery.mmenu.themes.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\tileview\jquery.mmenu.tileview.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\tileview\jquery.mmenu.tileview.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\widescreen\jquery.mmenu.widescreen.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\extensions\widescreen\jquery.mmenu.widescreen.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\jquery.mmenu.oncanvas.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\jquery.mmenu.oncanvas.min.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\mmenu-custom.css" />
+    <Content Include="app-assets\css\plugins\menu\mmenu\mmenu-custom.min.css" />
+    <Content Include="app-assets\css\plugins\pickers\bootstrap-datetimepicker-build.css" />
+    <Content Include="app-assets\css\plugins\pickers\bootstrap-datetimepicker-build.min.css" />
+    <Content Include="app-assets\css\plugins\pickers\colorpicker\colorpicker.css" />
+    <Content Include="app-assets\css\plugins\pickers\colorpicker\colorpicker.min.css" />
+    <Content Include="app-assets\css\plugins\pickers\daterange\daterange.css" />
+    <Content Include="app-assets\css\plugins\pickers\daterange\daterange.min.css" />
+    <Content Include="app-assets\css\plugins\tables\handsontable.css" />
+    <Content Include="app-assets\css\plugins\tables\handsontable.min.css" />
+    <Content Include="app-assets\css\plugins\ui\coming-soon.css" />
+    <Content Include="app-assets\css\plugins\ui\coming-soon.min.css" />
+    <Content Include="app-assets\css\plugins\ui\jqueryui.css" />
+    <Content Include="app-assets\css\plugins\ui\jqueryui.min.css" />
+    <Content Include="app-assets\css\plugins\ui\shapes.css" />
+    <Content Include="app-assets\css\plugins\ui\shapes.min.css" />
+    <Content Include="app-assets\fonts\icomoon.css" />
+    <Content Include="app-assets\fonts\icomoon\icomoon.svg" />
+    <Content Include="app-assets\js\app-menu.js" />
+    <Content Include="app-assets\js\app-menu.min.js" />
+    <Content Include="app-assets\js\app.js" />
+    <Content Include="app-assets\js\app.min.js" />
+    <Content Include="app-assets\js\core\app-menu.js" />
+    <Content Include="app-assets\js\core\app-menu.min.js" />
+    <Content Include="app-assets\js\core\app.js" />
+    <Content Include="app-assets\js\core\app.min.js" />
+    <Content Include="app-assets\js\libraries\bootstrap.min.js" />
+    <Content Include="app-assets\js\libraries\jquery.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\core.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\effects.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\full.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.af-ZA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.af-ZA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.af.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.af.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.am-ET.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.am-ET.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.am.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.am.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-AE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-AE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-BH.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-BH.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-DZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-DZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-EG.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-EG.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-IQ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-IQ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-JO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-JO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-KW.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-KW.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-LB.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-LB.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-LY.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-LY.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-MA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-MA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-OM.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-OM.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-QA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-QA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-SA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-SA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-SY.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-SY.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-TN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-TN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-YE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar-YE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ar.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.arn-CL.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.arn-CL.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.arn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.arn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.as-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.as-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.as.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.as.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az-Cyrl-AZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az-Cyrl-AZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az-Cyrl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az-Cyrl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az-Latn-AZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az-Latn-AZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az-Latn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az-Latn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.az.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ba-RU.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ba-RU.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ba.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ba.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.be-BY.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.be-BY.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.be.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.be.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bg-BG.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bg-BG.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bg.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bg.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bn-BD.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bn-BD.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bn-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bn-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bo-CN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bo-CN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bo.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bo.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.br-FR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.br-FR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.br.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.br.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs-Cyrl-BA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs-Cyrl-BA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs-Cyrl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs-Cyrl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs-Latn-BA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs-Latn-BA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs-Latn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs-Latn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.bs.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ca-ES.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ca-ES.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ca.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ca.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.co-FR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.co-FR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.co.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.co.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.cs-CZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.cs-CZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.cs.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.cs.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.cy-GB.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.cy-GB.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.cy.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.cy.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.da-DK.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.da-DK.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.da.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.da.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-AT.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-AT.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-CH.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-CH.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-DE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-DE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-LI.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-LI.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-LU.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de-LU.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.de.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.dsb-DE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.dsb-DE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.dsb.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.dsb.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.dv-MV.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.dv-MV.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.dv.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.dv.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.el-GR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.el-GR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.el.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.el.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-029.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-029.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-AU.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-AU.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-BZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-BZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-CA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-CA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-GB.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-GB.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-IE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-IE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-JM.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-JM.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-MY.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-MY.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-NZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-NZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-PH.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-PH.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-SG.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-SG.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-TT.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-TT.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-US.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-US.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-ZA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-ZA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-ZW.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.en-ZW.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-AR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-AR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-BO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-BO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-CL.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-CL.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-CO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-CO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-CR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-CR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-DO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-DO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-EC.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-EC.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-ES.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-ES.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-GT.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-GT.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-HN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-HN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-MX.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-MX.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-NI.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-NI.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-PA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-PA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-PE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-PE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-PR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-PR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-PY.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-PY.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-SV.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-SV.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-US.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-US.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-UY.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-UY.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-VE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es-VE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.es.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.et-EE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.et-EE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.et.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.et.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.eu-ES.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.eu-ES.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.eu.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.eu.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fa-IR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fa-IR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fa.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fa.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fi-FI.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fi-FI.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fi.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fi.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fil-PH.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fil-PH.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fil.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fil.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fo-FO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fo-FO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fo.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fo.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-BE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-BE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-CA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-CA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-CH.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-CH.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-FR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-FR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-LU.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-LU.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-MC.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr-MC.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fr.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fy-NL.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fy-NL.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fy.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.fy.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ga-IE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ga-IE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ga.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ga.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gd-GB.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gd-GB.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gd.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gd.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gl-ES.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gl-ES.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gsw-FR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gsw-FR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gsw.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gsw.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gu-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gu-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gu.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.gu.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ha-Latn-NG.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ha-Latn-NG.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ha-Latn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ha-Latn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ha.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ha.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.he-IL.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.he-IL.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.he.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.he.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hi-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hi-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hi.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hi.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hr-BA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hr-BA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hr-HR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hr-HR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hr.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hr.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hsb-DE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hsb-DE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hsb.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hsb.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hu-HU.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hu-HU.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hu.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hu.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hy-AM.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hy-AM.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hy.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.hy.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.id-ID.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.id-ID.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.id.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.id.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ig-NG.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ig-NG.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ig.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ig.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ii-CN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ii-CN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ii.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ii.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.is-IS.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.is-IS.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.is.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.is.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.it-CH.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.it-CH.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.it-IT.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.it-IT.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.it.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.it.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu-Cans-CA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu-Cans-CA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu-Cans.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu-Cans.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu-Latn-CA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu-Latn-CA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu-Latn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu-Latn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.iu.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ja-JP.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ja-JP.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ja.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ja.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ka-GE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ka-GE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ka.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ka.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kk-KZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kk-KZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kk.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kk.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kl-GL.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kl-GL.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.km-KH.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.km-KH.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.km.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.km.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kn-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kn-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ko-KR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ko-KR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ko.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ko.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kok-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kok-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kok.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.kok.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ky-KG.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ky-KG.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ky.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ky.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lb-LU.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lb-LU.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lb.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lb.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lo-LA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lo-LA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lo.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lo.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lt-LT.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lt-LT.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lt.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lt.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lv-LV.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lv-LV.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lv.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.lv.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mi-NZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mi-NZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mi.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mi.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mk-MK.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mk-MK.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mk.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mk.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ml-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ml-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ml.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ml.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn-Cyrl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn-Cyrl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn-MN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn-MN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn-Mong-CN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn-Mong-CN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn-Mong.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn-Mong.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.moh-CA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.moh-CA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.moh.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.moh.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mr-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mr-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mr.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mr.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ms-BN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ms-BN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ms-MY.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ms-MY.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ms.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ms.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mt-MT.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mt-MT.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mt.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.mt.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nb-NO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nb-NO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nb.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nb.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ne-NP.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ne-NP.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ne.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ne.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nl-BE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nl-BE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nl-NL.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nl-NL.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nn-NO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nn-NO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.no.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.no.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nso-ZA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nso-ZA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nso.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.nso.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.oc-FR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.oc-FR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.oc.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.oc.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.or-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.or-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.or.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.or.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pa-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pa-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pa.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pa.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pl-PL.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pl-PL.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.prs-AF.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.prs-AF.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.prs.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.prs.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ps-AF.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ps-AF.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ps.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ps.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pt-BR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pt-BR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pt-PT.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pt-PT.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pt.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.pt.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.qut-GT.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.qut-GT.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.qut.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.qut.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.quz-BO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.quz-BO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.quz-EC.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.quz-EC.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.quz-PE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.quz-PE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.quz.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.quz.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.rm-CH.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.rm-CH.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.rm.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.rm.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ro-RO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ro-RO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ro.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ro.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ru-RU.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ru-RU.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ru.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ru.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.rw-RW.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.rw-RW.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.rw.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.rw.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sa-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sa-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sa.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sa.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sah-RU.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sah-RU.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sah.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sah.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.se-FI.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.se-FI.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.se-NO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.se-NO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.se-SE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.se-SE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.se.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.se.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.si-LK.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.si-LK.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.si.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.si.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sk-SK.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sk-SK.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sk.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sk.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sl-SI.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sl-SI.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sma-NO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sma-NO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sma-SE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sma-SE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sma.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sma.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smj-NO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smj-NO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smj-SE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smj-SE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smj.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smj.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smn-FI.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smn-FI.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.smn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sms-FI.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sms-FI.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sms.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sms.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sq-AL.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sq-AL.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sq.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sq.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl-BA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl-BA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl-CS.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl-CS.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl-ME.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl-ME.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl-RS.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl-RS.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Cyrl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn-BA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn-BA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn-CS.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn-CS.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn-ME.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn-ME.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn-RS.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn-RS.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr-Latn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sr.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sv-FI.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sv-FI.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sv-SE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sv-SE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sv.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sv.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sw-KE.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sw-KE.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sw.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.sw.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.syr-SY.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.syr-SY.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.syr.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.syr.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ta-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ta-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ta.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ta.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.te-IN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.te-IN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.te.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.te.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tg-Cyrl-TJ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tg-Cyrl-TJ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tg-Cyrl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tg-Cyrl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tg.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tg.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.th-TH.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.th-TH.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.th.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.th.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tk-TM.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tk-TM.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tk.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tk.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tn-ZA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tn-ZA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tr-TR.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tr-TR.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tr.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tr.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tt-RU.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tt-RU.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tt.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tt.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tzm-Latn-DZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tzm-Latn-DZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tzm-Latn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tzm-Latn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tzm.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.tzm.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ug-CN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ug-CN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ug.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ug.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uk-UA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uk-UA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uk.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uk.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ur-PK.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ur-PK.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ur.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.ur.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz-Cyrl-UZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz-Cyrl-UZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz-Cyrl.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz-Cyrl.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz-Latn-UZ.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz-Latn-UZ.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz-Latn.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz-Latn.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.uz.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.vi-VN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.vi-VN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.vi.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.vi.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.wo-SN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.wo-SN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.wo.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.wo.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.xh-ZA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.xh-ZA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.xh.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.xh.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.yo-NG.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.yo-NG.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.yo.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.yo.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-CHS.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-CHS.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-CHT.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-CHT.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-CN.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-CN.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-Hans.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-Hans.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-Hant.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-Hant.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-HK.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-HK.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-MO.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-MO.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-SG.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-SG.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-TW.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh-TW.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zh.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zu-ZA.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zu-ZA.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zu.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.culture.zu.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.cultures.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\cultures\globalize.cultures.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\globalize.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\globalize\globalize.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\interactions.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\jquery-ui-droppable-iframe.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\jquery-ui.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\touch.min.js" />
+    <Content Include="app-assets\js\libraries\jquery_ui\widgets.min.js" />
+    <Content Include="app-assets\js\modernizr-2.6.2.js" />
+    <Content Include="app-assets\js\sweetalert.js" />
+    <Content Include="app-assets\vendors\css\extensions\bgvideo\bigvideo.css" />
+    <Content Include="app-assets\vendors\css\extensions\bgvideo\bigvideo.png" />
+    <Content Include="app-assets\vendors\css\extensions\bgvideo\video-js.min.css" />
+    <Content Include="app-assets\vendors\css\extensions\bootstrap-treeview.min.css" />
+    <Content Include="app-assets\vendors\css\extensions\datedropper.min.css" />
+    <Content Include="app-assets\vendors\css\extensions\dd-icon\dd-icon.svg" />
+    <Content Include="app-assets\vendors\css\extensions\jquery.toolbar.css" />
+    <Content Include="app-assets\vendors\css\extensions\long-press.css" />
+    <Content Include="app-assets\vendors\css\extensions\nouislider.min.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-dutch-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-dutch.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-english-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-english.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-french-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-french.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-german-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-german.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-hebrew-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-hebrew.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-italian-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-italian.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-persian-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-persian.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-portuguese-brazil-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-portuguese-brazil.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-spanish-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-spanish.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-turkish-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-language-turkish.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-theme-chrome-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-theme-chrome.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-theme-dark-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-theme-dark.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-theme-default-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-theme-default.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-theme-hubspot.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-theme-slide-indicator.css" />
+    <Content Include="app-assets\vendors\css\extensions\offline\themes\offline-theme-slide.css" />
+    <Content Include="app-assets\vendors\css\extensions\pace.css" />
+    <Content Include="app-assets\vendors\css\extensions\raty\fonts\raty.svg" />
+    <Content Include="app-assets\vendors\css\extensions\raty\jquery.raty.css" />
+    <Content Include="app-assets\vendors\css\extensions\sweetalert.css" />
+    <Content Include="app-assets\vendors\css\extensions\timedropper.min.css" />
+    <Content Include="app-assets\vendors\css\extensions\toastr.css" />
+    <Content Include="app-assets\vendors\css\extensions\unslider.css" />
+    <Content Include="app-assets\vendors\css\extensions\zoom.css" />
+    <Content Include="app-assets\vendors\css\modal\facebook.css" />
+    <Content Include="app-assets\vendors\css\modal\google.css" />
+    <Content Include="app-assets\vendors\css\modal\sweetalert.css" />
+    <Content Include="app-assets\vendors\css\modal\twitter.css" />
+    <Content Include="app-assets\vendors\css\ui\dragula.min.css" />
+    <Content Include="app-assets\vendors\css\ui\images\ui-icons_444444_256x240.png" />
+    <Content Include="app-assets\vendors\css\ui\images\ui-icons_555555_256x240.png" />
+    <Content Include="app-assets\vendors\css\ui\images\ui-icons_777620_256x240.png" />
+    <Content Include="app-assets\vendors\css\ui\images\ui-icons_777777_256x240.png" />
+    <Content Include="app-assets\vendors\css\ui\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="app-assets\vendors\css\ui\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="app-assets\vendors\css\ui\jquery-ui-slider-pips.min.css" />
+    <Content Include="app-assets\vendors\css\ui\jquery-ui.min.css" />
+    <Content Include="app-assets\vendors\css\ui\jquery.mCustomScrollbar.css" />
+    <Content Include="app-assets\vendors\css\ui\jquery.mThumbnailScroller.css" />
+    <Content Include="app-assets\vendors\css\ui\perfect-scrollbar.min.css" />
+    <Content Include="app-assets\vendors\css\ui\prism-treeview.css" />
+    <Content Include="app-assets\vendors\css\ui\prism.min.css" />
+    <Content Include="app-assets\vendors\js\charts\Chart.bundle.js" />
+    <Content Include="app-assets\vendors\js\charts\chart.min.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\excanvas.min.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.colorhelpers.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.canvas.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.categories.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.crosshair.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.errorbars.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.fillbetween.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.image.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.min.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.navigate.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.pie.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.resize.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.selection.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.stack.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.symbol.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.threshold.js" />
+    <Content Include="app-assets\vendors\js\charts\flot\jquery.flot.time.js" />
+    <Content Include="app-assets\vendors\js\charts\gmaps.min.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\jquery.vmap.min.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\continents\jquery.vmap.africa.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\continents\jquery.vmap.asia.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\continents\jquery.vmap.australia.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\continents\jquery.vmap.europe.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\continents\jquery.vmap.north-america.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\continents\jquery.vmap.south-america.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.algeria.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.argentina.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.brazil.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.canada.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.europe.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.france.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.germany.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.greece.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.iran.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.iraq.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.russia.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.tunisia.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.turkey.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.usa.js" />
+    <Content Include="app-assets\vendors\js\charts\jqvmap\maps\jquery.vmap.world.js" />
+    <Content Include="app-assets\vendors\js\charts\raphael-min.js" />
+    <Content Include="app-assets\vendors\js\extensions\pace.min.js" />
+    <Content Include="app-assets\vendors\js\extensions\sweetalert.min.js" />
+    <Content Include="app-assets\vendors\js\ui\affix.js" />
+    <Content Include="app-assets\vendors\js\ui\blockUI.min.js" />
+    <Content Include="app-assets\vendors\js\ui\jquery.matchHeight-min.js" />
+    <Content Include="app-assets\vendors\js\ui\jquery.sticky-kit.min.js" />
+    <Content Include="app-assets\vendors\js\ui\jquery.sticky.js" />
+    <Content Include="app-assets\vendors\js\ui\perfect-scrollbar.jquery.min.js" />
+    <Content Include="app-assets\vendors\js\ui\prism-treeview.js" />
+    <Content Include="app-assets\vendors\js\ui\prism.min.js" />
+    <Content Include="app-assets\vendors\js\ui\screenfull.min.js" />
+    <Content Include="app-assets\vendors\js\ui\tether.min.js" />
+    <Content Include="app-assets\vendors\js\ui\unison.min.js" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\bklogo.jpg" />
+    <Content Include="Content\Images\bklogogray.jpg" />
+    <Content Include="Content\Images\progress.gif" />
+    <Content Include="Content\modules.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\AngularControllers\customer.js" />
+    <Content Include="Scripts\AngularControllers\dashboard.js" />
+    <Content Include="Scripts\AngularControllers\partner.js" />
+    <Content Include="Scripts\AngularControllers\simulation.js" />
+    <Content Include="Scripts\AngularControllers\start.js" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="app-assets\fonts\icomoon\icomoon.eot" />
+    <Content Include="app-assets\fonts\icomoon\icomoon.ttf" />
+    <Content Include="app-assets\fonts\icomoon\icomoon.woff" />
+    <Content Include="app-assets\vendors\css\extensions\dd-icon\dd-icon.eot" />
+    <Content Include="app-assets\vendors\css\extensions\dd-icon\dd-icon.ttf" />
+    <Content Include="app-assets\vendors\css\extensions\dd-icon\dd-icon.woff" />
+    <Content Include="app-assets\vendors\css\extensions\raty\fonts\raty.eot" />
+    <Content Include="app-assets\vendors\css\extensions\raty\fonts\raty.ttf" />
+    <Content Include="app-assets\vendors\css\extensions\raty\fonts\raty.woff" />
+    <Content Include="Scripts\jquery.mask.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <Content Include="Views\Account\SendCode.cshtml" />
+    <Content Include="Views\Account\VerifyCode.cshtml" />
+    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
+    <Content Include="Views\Manage\ChangePassword.cshtml" />
+    <Content Include="Views\Manage\Index.cshtml" />
+    <Content Include="Views\Manage\ManageLogins.cshtml" />
+    <Content Include="Views\Manage\SetPassword.cshtml" />
+    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
+    <Content Include="Views\Shared\Lockout.cshtml" />
+    <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Partner\Edit.cshtml" />
+    <Content Include="Views\Simulation\Index.cshtml" />
+    <Content Include="Views\DashBoard\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InsuranceService.Infra.Data\InsuranceServices.Infra.Data.csproj">
+      <Project>{e137333a-e7b9-43f5-ab8d-1a6d6c4c97f5}</Project>
+      <Name>InsuranceServices.Infra.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InsuranceServices.Application\InsuranceServices.Application.csproj">
+      <Project>{5d21c194-8f5d-4800-af8f-c706db8a2bba}</Project>
+      <Name>InsuranceServices.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InsuranceServices.Domain\InsuranceServices.Domain.csproj">
+      <Project>{eff38eae-b1a8-4950-a8e3-14cc1f63c337}</Project>
+      <Name>InsuranceServices.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InsuranceServices.Infra.CrossCutting.KickOff\InsuranceServices.Infra.CrossCutting.KickOff.csproj">
+      <Project>{f2618de4-a88c-4cf7-8226-0945ce8eb709}</Project>
+      <Name>InsuranceServices.Infra.CrossCutting.KickOff</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Customer\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_EditCustomer.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55081</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:55081/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

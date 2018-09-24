@@ -1,0 +1,16 @@
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceService.Infra.Data.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceService.Infra.Data.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceService.Infra.Data.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\InsuranceServices.Domain.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceService.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceService.Infra.Data.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceService.Infra.Data.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceService.Infra.Data.Migrations.InitialCreate.resources
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceService.Infra.Data.csproj.GenerateResource.Cache
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceService.Infra.Data\obj\Debug\InsuranceService.Infra.Data.Migrations.first.resources

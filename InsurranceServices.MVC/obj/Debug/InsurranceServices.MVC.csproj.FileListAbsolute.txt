@@ -1,0 +1,368 @@
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\obj\Debug\InsurranceServices.MVC.csprojResolveAssemblyReference.cache
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\ApplicationInsights.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csc.exe
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csc.exe.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csc.rsp
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csi.exe
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csi.rsp
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.AppContext.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\vbc.exe
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\vbc.exe.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\vbc.rsp
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsurranceServices.MVC.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsurranceServices.MVC.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsurranceServices.MVC.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Antlr3.Runtime.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\AutoMapper.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Application.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Domain.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.CrossCutting.KickOff.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.Web.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Newtonsoft.Json.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Owin.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.Integration.WebApi.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Net.Http.Formatting.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Cors.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Helpers.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.Cors.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.WebHost.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Mvc.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Optimization.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Razor.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\WebActivatorEx.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\WebGrease.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.Data.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Application.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Domain.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Domain.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.CrossCutting.KickOff.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.CrossCutting.KickOff.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\AutoMapper.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.Integration.WebApi.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Net.Http.Formatting.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.Cors.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Helpers.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Mvc.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Optimization.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Razor.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Antlr3.Runtime.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Newtonsoft.Json.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.WebHost.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.Web.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\obj\Debug\InsurranceServices.MVC.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsurranceServices.MVC\obj\Debug\InsurranceServices.MVC.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\ApplicationInsights.config
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csc.exe
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csc.exe.config
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csc.rsp
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csi.exe
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csi.rsp
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.AppContext.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\vbc.exe
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\vbc.exe.config
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\vbc.rsp
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsurranceServices.MVC.dll.config
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsurranceServices.MVC.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsurranceServices.MVC.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Antlr3.Runtime.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\AutoMapper.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Application.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Domain.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.CrossCutting.KickOff.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.Data.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Newtonsoft.Json.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Owin.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.Integration.WebApi.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Net.Http.Formatting.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Cors.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Helpers.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.Cors.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.WebHost.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Mvc.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Optimization.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Razor.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\WebActivatorEx.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\WebGrease.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.Data.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Application.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Domain.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.CrossCutting.KickOff.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\AutoMapper.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.Integration.WebApi.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Net.Http.Formatting.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.Cors.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Helpers.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Mvc.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Optimization.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Razor.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Antlr3.Runtime.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Newtonsoft.Json.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.WebHost.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\obj\Debug\InsurranceServices.MVC.csprojResolveAssemblyReference.cache
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\obj\Debug\InsurranceServices.MVC.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\obj\Debug\InsurranceServices.MVC.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\ApplicationInsights.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csc.exe
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csc.exe.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csc.rsp
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csi.exe
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\csi.rsp
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.AppContext.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\vbc.exe
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\vbc.exe.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\vbc.rsp
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsurranceServices.MVC.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsurranceServices.MVC.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsurranceServices.MVC.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Antlr3.Runtime.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\AutoMapper.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Application.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Domain.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.CrossCutting.KickOff.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.Web.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Newtonsoft.Json.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Owin.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.Integration.WebApi.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Net.Http.Formatting.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Cors.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Helpers.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.Cors.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.WebHost.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Mvc.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Optimization.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Razor.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\WebActivatorEx.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\WebGrease.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.Data.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Application.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Domain.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Domain.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.CrossCutting.KickOff.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\InsuranceServices.Infra.CrossCutting.KickOff.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\AutoMapper.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\SimpleInjector.Integration.WebApi.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Net.Http.Formatting.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.Cors.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Helpers.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Mvc.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Optimization.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Razor.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Antlr3.Runtime.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Newtonsoft.Json.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\System.Web.Http.WebHost.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\bin\Microsoft.AI.Web.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\obj\Debug\InsurranceServices.MVC.csprojResolveAssemblyReference.cache
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\obj\Debug\InsurranceServices.MVC.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsurranceServices.MVC\obj\Debug\InsurranceServices.MVC.pdb

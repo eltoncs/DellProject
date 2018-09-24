@@ -1,0 +1,67 @@
+﻿<link href="~/Content/modules.css" rel="stylesheet" />
+
+<div class="card width-95-per centered" ng-app="projectsApp" ng-controller="DashBoardController" ng-cloak>
+    <div class="card-header">
+        <h4 class="card-title">@ViewBag.Title</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+                <li><a href="~/home"><i class="icon-cross2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group">
+            <div class="col-md-1">
+                <label for="property">Partner:</label>
+            </div>
+            <div class="col-md-5">
+                <select id="partner" class="form-control" ng-model="partnerId" required ng-change="showDetail()">
+                    <option ng-repeat="option in partners" value="{{option.Id}}">{{option.Name}}</option>
+                </select>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
+
+    <div class="card-block">
+        <span>Total simulations: {{totalSimulations}}</span>
+    </div>
+
+    <div class="card-body">
+        <div class="form-group">
+            <div class="col-sm-4">
+                <div id="donnut-area">
+                </div>
+            </div>
+            <div class="col-sm-8">
+                <div class="table-responsive">
+                    <table id="recent-orders" class="table table-hover mb-0 ps-container ps-theme-default">
+                        <thead>
+                            <tr>
+                                <th>Partner</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in simulations" id="">
+                                <td class="text-truncate">{{item.PartnerName}}</td>
+                                <td class="text-truncate">
+                                    <progress class="progress progress-md mt-0 mb-0" data-label="{{item.SimulationTimes}}" value="{{item.SimulationTimes}}" max="{{maxSimulation}}">{item.SimulationTimes}}</progress>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>            
+        </div>
+
+        <div class="card-footer">
+            <div class="form-group">
+              
+            </div>
+        </div>
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/js/dashboard")

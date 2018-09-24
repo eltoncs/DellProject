@@ -1,0 +1,61 @@
+﻿<link href="~/Content/modules.css" rel="stylesheet" />
+
+<div class="card" ng-app="projectsApp" ng-controller="CustomerController">
+    <div class="card-header">
+        <h4 class="card-title">@ViewBag.Title</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+                <li><a href="~/home"><i class="icon-cross2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="card-block">
+            <br />
+            <div class="card-line">
+                <a class="btn btn-info shadow white" id="btnNovoEstilo" ng-click="addNewCustomer();">
+                    <span class="icon-plus2"></span> Add
+                </a>
+            </div>
+            <br />
+            <table id="customers" class="table table-hover mb-0 ps-container ps-theme-default">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in customers" id="{{item.Id}}">
+                        <td class="text-truncate">{{item.Name}}</td>
+                        <td class="text-truncate">{{item.Email}}</td>
+                        <td class="text-truncate">{{item.Address}}</td>
+                        <td width="30">
+                            <a data-toggle="tooltip" data-original-title="Edit" ng-click="editCustomer(item.Id)">
+                                <i class="icon-edit2 font-medium-3 blue"></i>
+                            </a>
+                        </td>
+
+                        <td width="30">
+                            <a data-toggle="tooltip" data-original-title="Edit" ng-click="removeConfirm(item.Id)">
+                                <i class="icon-remove font-medium-3 red"></i>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    @Html.Partial("_EditCustomer");
+</div>
+
+@Scripts.Render("~/bundles/js/customer")
+
+
+
+

@@ -1,0 +1,223 @@
+﻿body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/content/images/bklogo.jpg");
+    opacity: .8;
+}
+
+label{
+    font-weight:bold;
+}
+.menu-collapsed #logo-sm {
+    display: none;
+}
+
+.menu-expanded #logo-xs {
+    display: none;
+}
+
+.menu-hide #logo-xs {
+    display: none;
+}
+
+.header-text {
+    margin-top: 20px;
+    color: royalblue;
+}
+
+.logout {
+    margin-top: 6px;
+}
+
+.centered {
+    margin: auto;
+}
+
+.icon-col {
+    width: 10px !important;
+}
+
+.card-title {
+    text-transform: none !important;
+}
+
+.error-frame {
+    min-height: 80px;
+    border: 1px solid lightgray;
+    overflow-y: auto;
+}
+
+    .error-frame li {
+        color: red;
+    }
+
+.card-header {
+    background-color: cornflowerblue !important;
+    padding-bottom: 6px !important;
+    padding-top: 6px !important;
+}
+
+.card-title {
+    color: white !important;
+}
+
+.heading-elements {
+    top: 5px !important;
+    right: 5px !important;
+}
+
+
+.heading-elements i {
+    color: white !important;
+}
+
+.nav-tabs a.nav-link.active {
+    border-top: 3px solid cornflowerblue !important;
+    color: cornflowerblue !important;
+}
+
+.nav-tabs .nav-item a {
+    color: black !important;
+}
+
+
+.navbar-container.ajuste {
+    margin-left: 0px !important;
+}
+
+.nav-link.ajuste {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-right: 20px !important;
+    color: black !important;
+}
+
+.header-navbar.ajuste {
+    min-height: 30px !important;
+    height: 0 !important;
+    background-color: lightsteelblue !important;
+}
+
+.navbar-header.ajuste {
+    height: 20px !important;
+    width: 280px !important;
+}
+
+.navbar-header.ajuste {
+    height: 20px !important;
+    width: 280px !important;
+}
+
+.navbar-container.ajuste {
+    height: inherit !important;
+}
+
+
+.tab-modal-list-container {
+    overflow-y: scroll;
+    height: 350px;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 8px;
+}
+.first-col{
+    width: 100px;
+    float: left;
+    margin-bottom:6px;
+}
+.second-col{
+    width: 200px;
+    float: left;
+}
+
+.tableContainer {
+    height: 310px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.index-table {
+    padding: 5px;
+    min-height: 60vh;
+}
+
+.card-block {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.modal-md {
+    width: 700px !important;
+}
+
+
+.card {
+    -webkit-box-shadow: 5px 5px 6px -2px rgba(71,69,71,1) !important;
+    -moz-box-shadow: 5px 5px 6px -2px rgba(71,69,71,1) !important;
+    box-shadow: 5px 5px 6px -2px rgba(71,69,71,1) !important;
+}
+
+
+.popover {
+    padding-bottom: 10px !important;
+}
+
+.card-block {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.card-header.modaldialog {
+    background-color: dodgerblue !important;
+}
+
+.field-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 3px !important;
+}
+
+.dropdown-menu .dropdown-submenu > a:after, .dropdown-menu .dropdown-submenu > button:after {
+    top: -7.5px !important; /* corrigindo posicionamento do Dropdown Menu */
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    transform: scale(1,1);
+    opacity: 1;
+}
+
+.table-responsive{
+    max-height:300px;
+    overflow-y:auto!important;
+    overflow-x:visible!important;
+}
+
+progress {
+  text-align: center;
+  height: 1.5em;
+  width: 100%;
+  font-weight: bold;
+  -webkit-appearance: none;
+  border: none;
+  position:relative;
+}
+progress:before {
+  content: attr(data-label);
+  font-size: 0.8em;
+  vertical-align: 0;
+  
+  position:absolute;
+  left:0;
+  right:0;
+}
+
+.my-donnut{
+    display: block; 
+    max-width: 300px; 
+    max-height: 300px;
+}

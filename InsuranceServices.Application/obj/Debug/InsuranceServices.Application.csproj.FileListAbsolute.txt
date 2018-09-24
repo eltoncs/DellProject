@@ -1,0 +1,94 @@
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Application.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Application.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\obj\Debug\InsuranceServices.Application.csprojResolveAssemblyReference.cache
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\obj\Debug\InsuranceServices.Application.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\obj\Debug\InsuranceServices.Application.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\AutoMapper.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Helpers.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Mvc.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Razor.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\EntityFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Infra.Data.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Domain.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\AutoMapper.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Helpers.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Mvc.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Razor.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\EntityFramework.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Application.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Application.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\AutoMapper.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Helpers.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Mvc.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Razor.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\EntityFramework.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\AutoMapper.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Helpers.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Mvc.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Razor.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\EntityFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\obj\Debug\InsuranceServices.Application.csprojResolveAssemblyReference.cache
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\obj\Debug\InsuranceServices.Application.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Application\obj\Debug\InsuranceServices.Application.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Application.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Application.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\AutoMapper.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Helpers.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Mvc.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Razor.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\EntityFramework.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Infra.Data.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\InsuranceServices.Domain.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\AutoMapper.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Helpers.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Mvc.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.Razor.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\EntityFramework.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\obj\Debug\InsuranceServices.Application.csprojResolveAssemblyReference.cache
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\obj\Debug\InsuranceServices.Application.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Application\obj\Debug\InsuranceServices.Application.pdb

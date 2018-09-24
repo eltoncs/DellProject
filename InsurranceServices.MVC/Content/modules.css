@@ -1,0 +1,8 @@
+﻿body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/content/images/bklogogray.jpg");
+    opacity: .8;
+}

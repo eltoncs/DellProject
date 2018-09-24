@@ -1,0 +1,72 @@
+﻿<div class="modal fade text-md-left" id="modalCustomer" tabindex="-1" role="dialog" aria-labelledby="Edit Customer">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="card-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="card-title">Customer</h4>
+            </div>
+            <form name="frmCustomer">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="row">                            
+                            <div class="col-md-6">
+                                <label for="txtNome">Nome:</label>
+                                <input type="text" spellcheck="false" maxlength="80" class="form-control" ng-model="customer.Name" ng-required="true" />
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="txtNome">Email:</label>
+                                <input type="email" spellcheck="false" maxlength="60" class="form-control" ng-model="customer.Email"/>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="txtNome">Address:</label>
+                                <input type="text" spellcheck="false" maxlength="120" class="form-control" ng-model="customer.Address" />
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="txtNome">Phone number:</label>
+                                <input type="text" spellcheck="false" maxlength="12" class="form-control" ng-model="customer.PhoneNumber" />
+                            </div>
+                        </div>                           
+                    </div>
+
+                    <hr />
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <div class="table-list">
+                                <label>Insurance types</label>
+                                <table id="recent-orders">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat="item in insurances" id="{{item.Id}}">
+                                            <td class="text-truncate"><input type="checkbox" ng-model="item.Checked" /></td>  
+                                            <td class="text-truncate">{{item.Name}}</td>                                                                                     
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                    </div>   
+                </div>                
+            </form>
+
+            <div class="card-footer">
+                <button type="button" class="btn btn-success shadow pull-right" ng-click="saveCustomer()" ng-disabled="frmCustomer.$invalid">
+                    <i class="icon-check"></i> Save
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

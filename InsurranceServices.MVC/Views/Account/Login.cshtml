@@ -1,0 +1,55 @@
+﻿@using InsurranceServices.MVC.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+
+<link href="~/Content/modules.css" rel="stylesheet" />
+
+<div class="card width-500 centered">
+    <div class="card-header">
+        <h4 class="card-title">@ViewBag.Title</h4>
+    </div>
+    <div class="card-body">
+        <div class="card-block">
+            <section id="login">
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-vertical", role = "form", id = "loginForm" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-body">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Email, new { @class = "control-label" })
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12 mt-1">
+                                <div class="checkbox pull-right">
+                                    @Html.CheckBoxFor(m => m.RememberMe)
+                                    @Html.LabelFor(m => m.RememberMe)
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                }
+            </section>
+        </div>
+        <div class="card-footer">
+            <div class="form-group">
+                <div class="col-md-12 ">
+                    <button type="submit" class="btn btn-success pull-right" onclick="document.getElementById('loginForm').submit();">
+                        <i class="icon-check"></i> Log in
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

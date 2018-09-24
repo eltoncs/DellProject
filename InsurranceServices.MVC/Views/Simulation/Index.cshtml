@@ -1,0 +1,107 @@
+﻿<link href="~/Content/modules.css" rel="stylesheet" />
+
+<div class="card width-700 centered" ng-app="projectsApp" ng-controller="SimulationController">
+    <div class="card-header">
+        <h4 class="card-title">@ViewBag.Title</h4>
+        <div class="heading-elements">
+            <ul class="list-inline mb-0">
+                <li><a href="~/home"><i class="icon-cross2"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="card-block">
+            <form name="simulationFrm">
+                <div class="form-body ">
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-2">
+                                <label for="property">Partner:</label>
+                            </div>
+                            <div class="col-md-5">
+                                <select id="partner" class="form-control" ng-model="simulation.PartnerId" required>
+                                    <option ng-repeat="option in partners" value="{{option.Id}}">{{option.Name}}</option>
+                                </select>
+                            </div>
+                            <div class="col-md-5"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-2">
+                                <label for="property">Property:</label>                            
+                            </div>
+                            <div class="col-md-5">
+                                <select id="property" class="form-control" required ng-model="simulation.PropertyType" ng-click="pointPropertyType()">
+                                    <option ng-repeat="option in propertyTypes" value="{{option.Name}}">{{option.Name}}</option>
+                                </select>
+                            </div>
+                            <div class="col-md-5"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="row" ng-show="propertyType.UsageYearIndexValue > 0">
+                        <div class="form-group">
+                            <div class="col-md-2">
+                                <label for="yearManufactured">Manufactured:</label>
+                            </div>
+                            <div class="col-md-5">
+                                <input type="number" max="{{thisYear}}" class="form-control" id="yearManufactured" ng-required="propertyType.UsageYearIndexValue > 0"
+                                       ng-model="simulation.ManufacacturedIn" />
+                            </div>
+                            <div class="col-md-5"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-group">
+                            <div class="col-md-2">
+                                <label for="value">Value $:</label>
+                            </div>
+                            <div class="col-md-5">
+                                <input type="text" class="form-control" id="value" required ng-model="simulation.Value" />
+                            </div>
+                            <div class="col-md-5"></div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row" ng-show="propertyType.ExtraForSize > 0">
+                        <div class="form-group">
+                            <div class="col-md-2">
+                                <label for="area">Area m2:</label>
+                            </div>
+                            <div class="col-md-5">
+                                <input type="number" class="form-control" id="area" required ng-model="simulation.Area" ng-required="propertyType.ExtraForSize > 0" />
+                            </div>
+                            <div class="col-md-5"></div>   
+                        </div>                     
+                    </div>
+                    <hr />
+                    <div class="row text-center">
+                        <div class="form-group">
+                            <h2>$ {{result}}</h2>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <button class="btn btn-success center" ng-click="simulate()" ng-disabled="simulationFrm.$invalid">Simulate</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="card-footer">
+            <div class="form-group">
+                <div class="col-md-12 ">
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/js/simulation")
+
+
+

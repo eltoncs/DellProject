@@ -1,0 +1,107 @@
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\obj\Debug\InsuranceServices.Infra.CrossCutting.KickOff.csprojResolveAssemblyReference.cache
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.CrossCutting.KickOff.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.CrossCutting.KickOff.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.CrossCutting.KickOff.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.Tests.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.Tests.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\SimpleInjector.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\EntityFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\AutoMapper.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.Data.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.Tests.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.Tests.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.Tests.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.Tests.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.dll.config
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\SimpleInjector.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\EntityFramework.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\AutoMapper.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\obj\Debug\InsuranceServices.Infra.CrossCutting.KickOff.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\obj\Debug\InsuranceServices.Infra.CrossCutting.KickOff.pdb
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\elton.sousa\Documents\Visual Studio 2017\Projects\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.CrossCutting.KickOff.dll.config
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.CrossCutting.KickOff.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.CrossCutting.KickOff.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.Tests.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.Tests.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\SimpleInjector.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\EntityFramework.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\AutoMapper.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.Tests.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.Tests.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\SimpleInjector.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\EntityFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\AutoMapper.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\obj\Debug\InsuranceServices.Infra.CrossCutting.KickOff.csprojResolveAssemblyReference.cache
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\obj\Debug\InsuranceServices.Infra.CrossCutting.KickOff.dll
+C:\Users\Elton\Downloads\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\obj\Debug\InsuranceServices.Infra.CrossCutting.KickOff.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.CrossCutting.KickOff.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.CrossCutting.KickOff.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.CrossCutting.KickOff.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.Tests.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.Tests.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.Data.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\SimpleInjector.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\EntityFramework.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\AutoMapper.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.Data.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Infra.Data.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.Tests.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.Tests.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Application.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.Tests.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.Tests.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.pdb
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\InsuranceServices.Domain.dll.config
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\SimpleInjector.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\EntityFramework.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\AutoMapper.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\obj\Debug\InsuranceServices.Infra.CrossCutting.KickOff.csprojResolveAssemblyReference.cache
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\obj\Debug\InsuranceServices.Infra.CrossCutting.KickOff.dll
+C:\Users\elton.sousa\Downloads\DELLProject\InsuranceServices\src\InsuranceServices.Infra.CrossCutting.KickOff\obj\Debug\InsuranceServices.Infra.CrossCutting.KickOff.pdb
